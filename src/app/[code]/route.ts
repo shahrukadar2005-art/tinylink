@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getDataSource } from "@/lib/db";
 import { Link } from "@/entities/Link";
 
-// Redirect handler
+// Redirect hand
 export async function GET(
   request: NextRequest,
   context: { params: Promise<{ code: string }> }
